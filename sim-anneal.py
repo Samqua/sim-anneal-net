@@ -3,6 +3,8 @@
 Created on Mon Jan  1 23:56:59 2018
 
 @author: Samqua
+
+A simulated annealing Monte Carlo method to optimize a cost function (depending on Euclidean distance) defined on a network of N nodes
 """
 
 import random
