@@ -165,7 +165,7 @@ for i,j in list(nx.degree(G)):
 
 fig = Figure(data=Data([edge_trace, node_trace]),
              layout=Layout(
-                title='<br>Road Network',
+                title='<br>Road Network, N='+str(N),
                 titlefont=dict(size=16),
                 showlegend=False,
                 hovermode='closest',
