@@ -16,8 +16,8 @@ So there is a goldilocks range of K values for which the algorithm finds a good 
 The fitness function is defined node-wise: every node has a fitness, and we judge graphs by the sum of all node fitnesses.
 Contributions to fitness include:
 
-(1) Degree (total number of connections)
-(2) Domination of neighbors (having more connections than the average of those connected to it)
-(3) Minimizing the sum of edge costs, where cost is proportional to edge length
+- Degree (total number of connections)
+- Domination of neighbors (having more connections than the average of those connected to it)
+- Minimizing the sum of edge costs, where cost is proportional to edge length
 
 Parameters p1, p2, and p3 respectively control the relative weights of these considerations in the fitness function.
