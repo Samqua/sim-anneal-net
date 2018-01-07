@@ -11,6 +11,7 @@ It does, however, have a nonzero chance (denoted K in the code) to return to the
 The average radius of the algorithm's orbit in state space is controlled by this parameter K:
 - if K is too high, the algorithm will be constrained to a local fitness maximum.
 - if K is too low, we could potentially be spending too much time searching an extraneous region of state space.
+
 So there is a goldilocks range of K values for which the algorithm finds a good solution quickly.
 
 The fitness function is defined node-wise: every node has a fitness, and we judge graphs by the sum of all node fitnesses.
